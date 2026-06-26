@@ -1,0 +1,2 @@
+# starboard
+Simple Starboard Bot
