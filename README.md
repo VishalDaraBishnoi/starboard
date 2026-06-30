@@ -6,8 +6,8 @@ A simple Discord bot that posts starred messages to a starboard channel.
 
 * Star reaction tracking
 * Auto-post to starboard
-* No duplicate posts
-* Configurable threshold
+* Prevents duplicate posts
+* Configurable via environment variables
 
 ## Setup
 
@@ -17,7 +17,7 @@ A simple Discord bot that posts starred messages to a starboard channel.
 cp .env.example .env
 ```
 
-2. Edit `.env` and fill in your values:
+2. Edit `.env` and add your values:
 
 ```
 DISCORD_TOKEN=your_token
@@ -35,4 +35,4 @@ python main.py
 ## Requirements
 
 * Enable MESSAGE CONTENT INTENT
-* Give bot: Send Messages, Embed Links, Read History
+* Bot permissions: Send Messages, Embed Links, Read Message History
