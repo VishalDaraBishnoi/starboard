@@ -35,4 +35,4 @@ python main.py
 ## Requirements
 
 * Enable MESSAGE CONTENT INTENT
-* Bot permissions: Send Messages, Embed Links, Read Message History
+* Bot permissions: Send Messages, Embed Links, Read Message History 
